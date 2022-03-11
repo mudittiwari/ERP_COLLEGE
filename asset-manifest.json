@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/college_erp/static/css/main.ee472478.css",
-    "main.js": "/college_erp/static/js/main.eeb5b788.js",
-    "static/media/topimage.png": "/college_erp/static/media/topimage.a00beae0fd0f2b61e4f0.png",
-    "static/media/logo.png": "/college_erp/static/media/logo.d6bf132dcd21b4869dc7.png",
-    "index.html": "/college_erp/index.html",
-    "main.ee472478.css.map": "/college_erp/static/css/main.ee472478.css.map",
-    "main.eeb5b788.js.map": "/college_erp/static/js/main.eeb5b788.js.map"
+    "main.css": "/ERP_COLLEGE/static/css/main.f77ca88c.css",
+    "main.js": "/ERP_COLLEGE/static/js/main.d17044ce.js",
+    "static/media/topimage.png": "/ERP_COLLEGE/static/media/topimage.a00beae0fd0f2b61e4f0.png",
+    "static/media/logo.png": "/ERP_COLLEGE/static/media/logo.d6bf132dcd21b4869dc7.png",
+    "index.html": "/ERP_COLLEGE/index.html",
+    "main.f77ca88c.css.map": "/ERP_COLLEGE/static/css/main.f77ca88c.css.map",
+    "main.d17044ce.js.map": "/ERP_COLLEGE/static/js/main.d17044ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee472478.css",
-    "static/js/main.eeb5b788.js"
+    "static/css/main.f77ca88c.css",
+    "static/js/main.d17044ce.js"
   ]
 }
