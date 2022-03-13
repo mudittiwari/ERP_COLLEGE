@@ -8,30 +8,30 @@ function Navbar() {
                 <div className="flex w-3/4 px-4">
                     <div className="ml-1">
                         <Email className="text-white mx-2" />
-                        <span className="text-white">erp@mitrc.ac.in</span>
+                        <span className="text-white text-sm">erp@mitrc.ac.in</span>
                     </div>
                     <div className="ml-1">
                         <Call className="text-white mx-2" />
-                        <span className="text-white">+91-9999999999</span>
+                        <span className="text-white text-sm">+91-9999999999</span>
                     </div>
                     <div className="ml-1">
                         <LanguageSharp className="text-white mx-2" />
-                        <span className="text-white">www.mitrc.ac.in</span>
+                        <span className="text-white text-sm">www.mitrc.ac.in</span>
                     </div>
                 </div>
                 <div className="flex w-1/2 justify-end px-4">
                     <div className="mr-1">
                         <CalendarToday className="text-white mx-2" />
-                        <span className="text-white">4 MARCH 2022</span>
+                        <span className="text-white text-sm">4 MARCH 2022</span>
                     </div>
                     <div className="mr-1">
                         <AccessTime className="text-white mx-2" />
-                        <span className="text-white ">12:08:00</span>
+                        <span className="text-white text-sm">12:08:00</span>
                     </div>
                 </div>
             </div>
             <div className="w-full h-max flex items-center justify-between px-5">
-                <img src={logo} alt="" />
+                <img src={logo} width="200px" alt="" />
                 <AccessTime className="text-white mx-2" />
                 <button className="text-white px-2 py-1" style={{ 'backgroundColor': '#FF944A' }}
                 >    <Person className="text-white mr-2" />
