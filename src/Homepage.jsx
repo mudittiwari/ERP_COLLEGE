@@ -8,8 +8,22 @@ import alumini from '../src/assets/alumini.png';
 import student_data from '../src/assets/student_data.png';
 import visits from '../src/assets/visits.png';
 import adone from '../src/assets/adone.png';
+import lab_status from '../src/assets/lab_status.png';
+import repairing from '../src/assets/repairing.png';
+import camera from '../src/assets/camera.png';
+import bills from '../src/assets/bills.png';
+import bookings from '../src/assets/bookings.png';
+import gst from '../src/assets/gst.png';
+import exam_details from '../src/assets/exam_details.png';
 import adtwo from '../src/assets/adtwo.png';
 import adthree from '../src/assets/adthree.png';
+import attendance from '../src/assets/attendance.JPG';
+import dattendance from '../src/assets/dattendance.JPG';
+import report from '../src/assets/report.JPG';
+import id from '../src/assets/id.JPG';
+import card_status from '../src/assets/card_status.JPG';
+import design from '../src/assets/design.JPG';
+import requsitions from '../src/assets/requsitions.JPG';
 import adfour from '../src/assets/adfour.png';
 import govt from '../src/assets/govt.png';
 import arrow from '../src/assets/arrow.png';
@@ -303,18 +317,18 @@ function Homepage() {
                 <div className="w-full h-max px-20 py-5 mt-6 mb-6" style={{ 'backgroundColor': 'white' }}>
                     <h1 className="text-xl font-bold" style={{ 'color': '#4A4A4A', 'fontFamily': 'Montserrat' }}>ACCOUNTS DEPARTMENT</h1>
                     <div className="w-36 my-3" style={{ 'height': '2px', 'backgroundColor': '#FF944A' }}></div>
-                    </div>
+
                     <div className="w-full flex justify-evenly mb-10">
                         <div className="w-36 flex justify-center items-center flex-col">
-                            <img src={adone} width="20px" alt="" />
+                            <img src={adthree} width="20px" alt="" />
                             <h1 className="text-xs font-bold my-2">SALARY SHEET</h1>
                         </div>
                         <div className="w-36 flex justify-center items-center flex-col">
-                            <img src={adone} width="20px" alt="" />
+                            <img src={adthree} width="20px" alt="" />
                             <h1 className="text-xs font-bold my-2">ADVANCE PAYMENT</h1>
                         </div>
                         <div className="w-36 flex justify-center items-center flex-col">
-                            <img src={adone} width="20px" alt="" />
+                            <img src={adthree} width="20px" alt="" />
                             <h1 className="text-xs font-bold my-2">FEES</h1>
                         </div>
                     </div>
@@ -329,7 +343,7 @@ function Homepage() {
                             <h1 className="text-xs font-bold my-2">GST DETAILS</h1>
                         </div>
                         <div className="w-36 flex justify-center items-center flex-col">
-                            <img src={adthree} width="20px" alt="" />
+                            <img src={adone} width="20px" alt="" />
                             <h1 className="text-xs font-bold my-2">BOOKINGS</h1>
                         </div>
                     </div>
@@ -344,9 +358,221 @@ function Homepage() {
                             <h1 className="text-xs font-bold my-2">ONLINE EXAM PAYMENT</h1>
                         </div>
                         <div className="w-36 justify-center items-center flex-col">
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <div className="w-full h-max px-20 py-5 mt-10 mb-6" style={{ 'backgroundColor': '#85C1E9' }}>
+                    <h1 className="text-xl font-bold" style={{ 'color': '#4A4A4A', 'fontFamily': 'Montserrat' }}>PRINTER ROOM</h1>
+                    <div className="w-36 my-3" style={{ 'height': '2px', 'backgroundColor': '#FF944A' }}></div>
+                    <div className="w-full flex">
+                        <div className="w-1/2 flex flex-col mt-10">
+                            <div className="bg-white flex w-3/4 h-44 justify-between items-end px-10 py-2 rounded-lg my-3">
+                                <h1 className="font-bold text-sm uppercase mb-7 mx-5">Attendence</h1>
+                                <img src={attendance} width="150px" className="self-center" alt="" />
+                            </div>
+                            <div className="bg-white flex w-3/4 h-44 justify-between items-end px-10 py-2 rounded-lg my-3">
+                                <h1 className="font-bold text-sm uppercase mb-7 mx-5">DAILY ATTENDENCE</h1>
+                                <img src={dattendance} width="150px" className="self-center" alt="" />
+                            </div>
+                            <div className="bg-white flex w-3/4 h-44 justify-between items-end px-10 py-2 rounded-lg my-3">
+                                <h1 className="font-bold text-sm uppercase mb-7 mx-5">STUDENT REPORT</h1>
+                                <img src={report} className="self-center" width="170px" alt="" />
+                            </div>
+                            <div className="bg-white flex w-3/4 h-44 justify-between items-end px-10 py-2 rounded-lg my-3">
+                                <h1 className="font-bold text-sm uppercase mb-7 mx-5">REQUISTIONS</h1>
+                                <img src={requsitions} width="150px" className="self-center" alt="" />
+                            </div>
+                        </div>
+
+
+
+
+                        <div className="w-1/2 flex flex-col mt-10">
+                            <div className="bg-white flex w-3/4 h-36 justify-between items-end px-10 py-2 rounded-lg my-3">
+                                <h1 className="font-bold text-sm uppercase mb-7 mx-5">ID</h1>
+                                <img src={id} width="150px" className="self-center" alt="" />
+                            </div>
+                            <div className="bg-white flex w-3/4 h-36 justify-between items-end px-10 py-2 rounded-lg my-3">
+                                <h1 className="font-bold text-sm uppercase mb-7 mx-5">CARD STATUS</h1>
+                                <img src={card_status} width="150px" className="self-center" alt="" />
+                            </div>
+                            <div className="bg-white flex w-3/4 h-36 items-end justify-between px-10 py-2 rounded-lg my-3">
+                                <h1 className="font-bold text-sm uppercase mb-7 mx-5">DESIGN</h1>
+                                <img src={design} className="self-center" width="170px" alt="" />
+                            </div>
                             
                         </div>
                     </div>
+                </div>
+
+
+
+
+
+
+                <div className="w-full h-max px-20 py-5 mt-2 mb-6" style={{ 'backgroundColor': 'white' }}>
+                    <h1 className="text-xl font-bold" style={{ 'color': '#4A4A4A', 'fontFamily': 'Montserrat' }}>STORE DEPARTMENT</h1>
+                    <div className="w-36 my-3" style={{ 'height': '2px', 'backgroundColor': '#FF944A' }}></div>
+                    <div className="flex flex-col w-full mt-10">
+                        <div className="w-full flex justify-center ">
+                            <div className="w-44 h-12 mx-2  flex justify-center items-center rounded-3xl" style={{ 'boxShadow': '4px 4px 4px 0px rgb(0 0 0 / 25%)','backgroundColor':'#85C1E9' }}>
+                                <h1 className="text-xs font-semibold text-white" >PURCHASE</h1>
+                            </div>
+                            <div className="w-44 h-12 mx-2  flex justify-center items-center rounded-3xl" style={{ 'boxShadow': '4px 4px 4px 0px rgb(0 0 0 / 25%)','backgroundColor':'#85C1E9' }}>
+                                <h1 className="text-xs font-semibold text-white" >SALE / RETURN</h1>
+                            </div>
+                        </div>
+                        <div className="w-full flex justify-center my-6">
+                            <div className="w-44 h-12 mx-2  flex justify-center items-center rounded-3xl" style={{ 'boxShadow': '4px 4px 4px 0px rgb(0 0 0 / 25%)','backgroundColor':'#85C1E9' }}>
+                                <h1 className="text-xs font-semibold text-white" >RAW BILLS</h1>
+                            </div>
+                            <div className="w-44 h-12 mx-2  flex justify-center items-center rounded-3xl" style={{ 'boxShadow': '4px 4px 4px 0px rgb(0 0 0 / 25%)','backgroundColor':'#85C1E9' }}>
+                                <h1 className="text-xs font-semibold text-white" >BILLS</h1>
+                            </div>
+                            <div className="w-44 h-12 mx-2  flex justify-center items-center rounded-3xl" style={{ 'boxShadow': '4px 4px 4px 0px rgb(0 0 0 / 25%)','backgroundColor':'#85C1E9' }}>
+                                <h1 className="text-xs font-semibold text-white">REQUISITIONS RECEIVED</h1>
+                            </div>
+                        </div>
+                        <div className="w-full flex justify-center ">
+                            <div className="w-44 h-12 mx-2  flex justify-center items-center rounded-3xl" style={{ 'boxShadow': '4px 4px 4px 0px rgb(0 0 0 / 25%)','backgroundColor':'#85C1E9' }}>
+                                <h1 className="text-xs font-semibold text-white" >ITEM GRANTED</h1>
+                            </div>
+                            <div className="w-44 h-12 mx-2  flex justify-center items-center rounded-3xl" style={{ 'boxShadow': '4px 4px 4px 0px rgb(0 0 0 / 25%)','backgroundColor':'#85C1E9' }}>
+                                <h1 className="text-xs font-semibold text-white" >GATE PASS</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div className="w-full h-max px-20 mb-6 py-6" style={{ 'position': 'relative','backgroundColor':'#85C1E9' }}>
+                    <h1 className="text-xl font-bold" style={{ 'color': '#4A4A4A', 'fontFamily': 'Montserrat' }}>LIBRARY</h1>
+                    <div className="w-36 my-3" style={{ 'height': '2px', 'backgroundColor': '#FF944A' }}></div>
+                    <div className="w-100 flex justify-center mt-6">
+                        <div className="w-3/5 h-80 rounded-xl" style={{ 'backgroundColor': 'rgba(227, 235, 253, 1)', 'boxShadow': '0px 4px 4px 0px rgb(0 0 0 / 25%)' }}></div>
+                    </div>
+                    <div className="w-4/5 flex justify-around" style={{ 'position': 'absolute', 'top': '120px' }}>
+                        <div className="w-1/5 py-10 flex flex-col items-center rounded-lg" style={{ 'backgroundColor': 'white', 'boxShadow': '4px 4px 4px 0px rgb(0 0 0 / 25%)' }}>
+                            <h1 className="font-bold text-xs">INVENTORY</h1>
+                            
+                        </div>
+                        <div className="w-1/5 py-10 flex flex-col items-center rounded-lg" style={{ 'backgroundColor': 'white', 'boxShadow': '4px 4px 4px 0px rgb(0 0 0 / 25%)' }}>
+                            <h1 className="font-bold text-xs">BOOKS GRANTED</h1>
+                            {/* <h1 className="font-bold text-xs">DETAILS</h1> */}
+                        </div>
+                        <div className="w-1/5 py-10 flex flex-col items-center rounded-lg" style={{ 'backgroundColor': 'white', 'boxShadow': '4px 4px 4px 0px rgb(0 0 0 / 25%)' }}>
+                            <h1 className="font-bold text-xs">BOOKS RECEIVED</h1>
+                            {/* <h1 className="font-bold text-xs">ATTENDENCE</h1> */}
+                        </div>
+                        <div className="w-1/5 py-10 flex flex-col items-center rounded-lg" style={{ 'backgroundColor': 'white', 'boxShadow': '4px 4px 4px 0px rgb(0 0 0 / 25%)' }}>
+                            {/* <h1 className="font-bold text-xs">STAFF</h1> */}
+                            <h1 className="font-bold text-xs">REQUISITION</h1>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+                <div className="w-full h-max px-20 py-5 mt-6 mb-6" style={{ 'backgroundColor': 'white' }}>
+                    <h1 className="text-xl font-bold" style={{ 'color': '#4A4A4A', 'fontFamily': 'Montserrat' }}>ONLINE EXAMINATION</h1>
+                    <div className="w-36 my-3" style={{ 'height': '2px', 'backgroundColor': '#FF944A' }}></div>
+                    <div className="flex justify-around my-10">
+                        <div className="oe w-1/4  h-44 flex flex-col items-center px-5 justify-evenly rounded-lg" style={{'backgroundColor':'#85C1E9'}}>
+                            <div className="h-10 w-10 flex justify-center items-center rounded-full px-2 py-2" style={{ 'backgroundColor': 'orange' }}>
+                                <img src={lab_status} height="30px" width="30px" alt="" />
+                            </div>
+                            <h1 className="text-xs font-bold uppercase">LAB STATUS</h1>
+                            
+                        </div>
+
+
+                        <div className="oe w-1/4  h-44 flex flex-col items-center px-5 justify-evenly rounded-lg" style={{'backgroundColor':'#85C1E9'}}>
+                            <div className="h-10 w-10 flex justify-center items-center rounded-full px-2 py-2" style={{ 'backgroundColor': '#FF2D59' }}>
+                                <img src={repairing} height="30px" width="30px" alt="" />
+                            </div>
+                            <h1 className="text-xs font-bold uppercase">REPAIRING</h1>
+                            
+                        </div>
+
+
+
+                        <div className="oe w-1/4  h-44 flex flex-col items-center px-5 justify-evenly rounded-lg" style={{'backgroundColor':'#85C1E9'}}>
+                            <div className="h-10 w-10 flex justify-center items-center rounded-full px-2 py-2" style={{ 'backgroundColor': '#4ADB61' }}>
+                                <img src={camera} height="30px" width="30px" alt="" />
+                            </div>
+                            <h1 className="text-xs font-bold uppercase">CAMERA STATUS</h1>
+                            
+                        </div>
+                    </div>
+
+
+
+                    <div className="flex justify-around my-10">
+                        <div className="oe w-1/4  h-44 flex flex-col items-center px-5 justify-evenly rounded-lg" style={{'backgroundColor':'#85C1E9'}}>
+                            <div className="h-10 w-10 flex justify-center items-center rounded-full px-2 py-2" style={{ 'backgroundColor': '#FFCC00' }}>
+                                <img src={bills} height="30px" width="30px" alt="" />
+                            </div>
+                            <h1 className="text-xs font-bold uppercase">BILLS</h1>
+                            
+                        </div>
+
+
+                        <div className="oe w-1/4  h-44 flex flex-col items-center px-5 justify-evenly rounded-lg" style={{'backgroundColor':'#85C1E9'}}>
+                            <div className="h-10 w-10 flex justify-center items-center rounded-full px-2 py-2" style={{ 'backgroundColor': '#007BFF' }}>
+                                <img src={bookings} height="30px" width="30px" alt="" />
+                            </div>
+                            <h1 className="text-xs font-bold uppercase">BOOKING</h1>
+                            
+                        </div>
+
+
+
+                        <div className="oe w-1/4  h-44 flex flex-col items-center px-5 justify-evenly rounded-lg" style={{'backgroundColor':'#85C1E9'}}>
+                            <div className="h-10 w-10 flex justify-center items-center rounded-full px-2 py-2" style={{ 'backgroundColor': '#FF6800' }}>
+                                <img src={gst} height="30px" width="30px" alt="" />
+                            </div>
+                            <h1 className="text-xs font-bold uppercase">GST</h1>
+                            
+                        </div>
+                    </div>
+
+
+                    <div className="flex justify-around my-10">
+                        <div className="w-1/4  h-44 flex flex-col items-center px-5 justify-evenly rounded-lg">
+                            
+                        </div>
+
+
+                        <div className="oe w-1/4  h-44 flex flex-col items-center px-5 justify-evenly rounded-lg" style={{'backgroundColor':'#85C1E9'}}>
+                            <div className="h-10 w-10 flex justify-center items-center rounded-full px-2 py-2" style={{ 'backgroundColor': '#FA00FF' }}>
+                                <img src={exam_details} height="30px" width="30px" alt="" />
+                            </div>
+                            <h1 className="text-xs font-bold uppercase">BOOKING</h1>
+                            
+                        </div>
+
+
+
+                        <div className="w-1/4  h-44 flex flex-col items-center px-5 justify-evenly rounded-lg">
+                            
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     );
