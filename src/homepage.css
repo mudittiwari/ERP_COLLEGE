@@ -1,0 +1,17 @@
+.tpd:hover
+{
+    background-color: #E3EBFD !important;
+    box-shadow: 4px 4px 4px 0px rgb(0 0 0 / 25%) !important;
+}
+.tpd:hover .arrow
+{
+    background-color: white !important;
+}
+.tpd
+{
+    transition: all 0.3s;
+}
+.arrow
+{
+    transition: all 0.3s;
+}
