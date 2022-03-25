@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/ERP_COLLEGE/static/css/main.f84177fd.css",
-    "main.js": "/ERP_COLLEGE/static/js/main.71d70597.js",
+    "main.css": "/ERP_COLLEGE/static/css/main.230b9697.css",
+    "main.js": "/ERP_COLLEGE/static/js/main.cd6f08c1.js",
     "static/media/topimage.png": "/ERP_COLLEGE/static/media/topimage.a00beae0fd0f2b61e4f0.png",
+    "static/media/report.JPG": "/ERP_COLLEGE/static/media/report.4d6aca0508da20879325.JPG",
+    "static/media/id.JPG": "/ERP_COLLEGE/static/media/id.46a0e1af67b3803a032b.JPG",
+    "static/media/design.JPG": "/ERP_COLLEGE/static/media/design.043fa0a2ca6efba52e5c.JPG",
+    "static/media/requsitions.JPG": "/ERP_COLLEGE/static/media/requsitions.eefbe79ac7507dc069dd.JPG",
+    "static/media/dattendance.JPG": "/ERP_COLLEGE/static/media/dattendance.e8333dc38260458d2e3b.JPG",
+    "static/media/attendance.JPG": "/ERP_COLLEGE/static/media/attendance.cfa00879a55b75bc2ac1.JPG",
+    "static/media/card_status.JPG": "/ERP_COLLEGE/static/media/card_status.5154e66faa2351eaef92.JPG",
     "static/media/logo.png": "/ERP_COLLEGE/static/media/logo.d6bf132dcd21b4869dc7.png",
     "index.html": "/ERP_COLLEGE/index.html",
-    "main.f84177fd.css.map": "/ERP_COLLEGE/static/css/main.f84177fd.css.map",
-    "main.71d70597.js.map": "/ERP_COLLEGE/static/js/main.71d70597.js.map"
+    "main.230b9697.css.map": "/ERP_COLLEGE/static/css/main.230b9697.css.map",
+    "main.cd6f08c1.js.map": "/ERP_COLLEGE/static/js/main.cd6f08c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.f84177fd.css",
-    "static/js/main.71d70597.js"
+    "static/css/main.230b9697.css",
+    "static/js/main.cd6f08c1.js"
   ]
 }
